@@ -13,13 +13,22 @@
     <!--Style CSS-->
     <link rel="stylesheet" href="style.css">
     <!--JavaScript-->
-    <script src="script.js"></script>
+    <script defer src="script.js"></script>
 </head>
 
 <body>
     <header></header>
     <main>
 
+        <div id="app" class="text-center my-5">
+
+            <h1 class="my-5">
+                {{ message }}, e ho {{ age }} anni
+            </h1>
+            <img :src="image" alt="Immagine Profilo">
+
+
+        </div>
 
     </main>
     <footer></footer>
